@@ -1,6 +1,6 @@
 cask "katabro" do
-  version "0.2.1"
-  sha256 "fb0be9c9457fe2cb9fc9d0d396b3c090e74d92432fa8b1f7256f0b1bde0f7710"
+  version "0.2.3"
+  sha256 "503a12efbd4b153e83c0baf7d1d7987eac1657b2a0b3d33afe2f12a6bfb07575"
 
   url "https://github.com/zbiljic/Katabro/releases/download/v#{version}/Katabro-#{version}-universal.zip"
   name "Katabro"
