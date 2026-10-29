@@ -9,7 +9,7 @@ Personal Homebrew tap for my apps and command-line tools.
 | [Katabro](https://github.com/zbiljic/Katabro) | macOS browser picker with a bundled CLI | `brew install --cask zbiljic/tap/katabro` |
 | [UpTil](https://github.com/zbiljic/uptil) | macOS menu bar app to keep your Mac awake, with a bundled CLI | `brew install --cask zbiljic/tap/uptil` |
 
-Katabro requires macOS 14 or later.
+Katabro requires Apple silicon and macOS 14 or later.
 UpTil requires Apple silicon and macOS 14 or later. Its cask installs both
 `UpTil.app` and the `uptil` command-line helper; start the app before using the helper.
 

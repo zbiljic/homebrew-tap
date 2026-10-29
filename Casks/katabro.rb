@@ -1,12 +1,13 @@
 cask "katabro" do
-  version "0.2.3"
-  sha256 "503a12efbd4b153e83c0baf7d1d7987eac1657b2a0b3d33afe2f12a6bfb07575"
+  version "0.3.0"
+  sha256 "22e95a8000f5660df19f43a3a17cd44dd9c6067c23627f8429dcc4cd9f2e7dcd"
 
-  url "https://github.com/zbiljic/Katabro/releases/download/v#{version}/Katabro-#{version}-universal.zip"
+  url "https://github.com/zbiljic/Katabro/releases/download/v#{version}/Katabro-#{version}-arm64.zip"
   name "Katabro"
   desc "Choose which browser opens each web link"
   homepage "https://github.com/zbiljic/Katabro"
 
+  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "Katabro.app"
